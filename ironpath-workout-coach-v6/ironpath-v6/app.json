@@ -1,0 +1,38 @@
+{
+  "expo": {
+    "name": "IronPath",
+    "slug": "ironpath-workout-coach",
+    "version": "0.5.6",
+    "orientation": "portrait",
+    "scheme": "ironpath",
+    "userInterfaceStyle": "dark",
+    "newArchEnabled": true,
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.ironpath.workouts"
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "single",
+      "name": "IronPath Workout Coach",
+      "shortName": "IronPath",
+      "favicon": "./assets/favicon.png",
+      "themeColor": "#05070B",
+      "backgroundColor": "#05070B",
+      "display": "standalone"
+    },
+    "plugins": [
+      [
+        "@kingstinct/react-native-healthkit",
+        {
+          "NSHealthShareUsageDescription": "IronPath reads body weight and workout energy so your training and weight-loss trends stay together.",
+          "NSHealthUpdateUsageDescription": "IronPath can save body-weight entries to Apple Health.",
+          "background": false
+        }
+      ]
+    ],
+    "icon": "./assets/ironpath-icon.png",
+    "backgroundColor": "#05070B",
+    "primaryColor": "#2F7DF5"
+  }
+}
