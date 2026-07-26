@@ -1,0 +1,28 @@
+{
+  "name": "ironpath-workout-coach",
+  "version": "6.12.0",
+  "private": true,
+  "main": "index.ts",
+  "scripts": {
+    "start": "expo start",
+    "ios": "expo start --ios",
+    "web": "expo start --web",
+    "build:web": "expo export --platform web",
+    "typecheck": "tsc --noEmit",
+    "doctor": "npx expo-doctor"
+  },
+  "dependencies": {
+    "@kingstinct/react-native-healthkit": "13.2.3",
+    "@react-native-async-storage/async-storage": "^2.2.0",
+    "expo": "~54.0.0",
+    "react": "19.1.0",
+    "react-dom": "19.1.0",
+    "react-native": "0.81.5",
+    "react-native-nitro-modules": "^0.33.9",
+    "react-native-web": "~0.21.0"
+  },
+  "devDependencies": {
+    "@types/react": "~19.1.10",
+    "typescript": "~5.9.2"
+  }
+}
